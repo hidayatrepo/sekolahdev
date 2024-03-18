@@ -1,10 +1,11 @@
 name: FTP Auto Deploy
 
+# on:
+#   push:
+#     branches:
+#       - master  # Adjust branch name if needed
 on:
-  push:
-    branches:
-      - master  # Adjust branch name if needed
-
+  push
 jobs:
   deploy:
     runs-on: ubuntu-latest
