@@ -19,6 +19,6 @@ jobs:
         server: slsofficial.co.id
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server_dir: /sekolahdev.slsofficial.co.id/
         port: 21
+        server-dir: /sekolahdev.slsofficial.co.id/
         
